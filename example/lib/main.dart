@@ -27,6 +27,21 @@ class _MyAppState extends State<MyApp> {
           filledIconData: Icons.star,
           halfFilledIconData: Icons.star_half,
           defaultIconData: Icons.star_border,
+          filledIcon: Icon(
+            Icons.vpn_key,
+            color: Colors.red,
+            size: 65,
+          ),
+          defaultIcon: Icon(
+            Icons.vpn_key,
+            color: Colors.black,
+            size: 65,
+          ),
+          halfFilledIcon: Icon(
+            Icons.vpn_key,
+            color: Colors.green,
+            size: 65,
+          ),
           starCount: 5,
           allowHalfRating: false,
           spacing: 2.0,
